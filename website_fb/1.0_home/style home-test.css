@@ -1,0 +1,249 @@
+body {
+    background: radial-gradient(circle, #fbbbad 0%, #ee8695 25%, #4a7a96 50%, #333f58 85%, #292831 95%); 
+    font-family: "Libre Baskerville", serif;
+    font-weight: 500;
+    color: #333;
+    margin: 40;
+    padding: 0;
+}
+/* Font type */
+.libre-baskerville-regular {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.libre-baskerville-bold {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.libre-baskerville-regular-italic {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+main { 
+    padding: 20px;
+    max-width: 63%;
+    margin: 2% auto;
+    background: #fff; 
+    border-radius: 25px;
+    box-shadow: 0 4px 8px #0000001a;
+}
+
+h1 {
+    color: #1f1f29;
+    font-family: "Libre Baskerville", serif;
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h2, h3, h4 {
+    color: #596070;
+    font-family: "Libre Baskerville", serif;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+p {
+    color: #413a42;
+    font-family: "Libre Baskerville", serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    width: 100%;
+    margin: 12px auto;
+}
+
+footer {
+    text-align: center;
+    padding: 0px;
+    bottom: 0;
+    width: 100%;
+}
+
+/* General image styling */
+img {
+    display: block; 
+    max-width: 100%; 
+    height: auto; 
+    margin: 10px auto; 
+    border-radius: 8px; 
+}
+
+.img-size-smaller {
+    width: 60%;
+    height: 60%;
+}
+
+figure {
+    text-align: center; 
+    margin: 20px 0; /
+}
+
+figure img {
+    max-width: 100%; 
+    height: auto; 
+}
+/* Button settings */
+.button-container {
+    position: fixed; 
+    top: 4%; 
+    left: 2%;
+    background-color: #f6f6f6; 
+    padding: 20px; 
+    box-shadow: 2px 0px 5px #00000033; 
+    border-radius: 25px; 
+    width: 10%; 
+}
+
+/* Hover effect for buttons */
+.button-container a:hover {
+    background-color: #024996de; 
+    color: white; 
+}
+.button-container a {
+    display: block;
+    margin-bottom: 20px; 
+    padding: 10px 00px;
+    background-color: #96a2b3; 
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #00000033;
+    width: 100%; 
+    font-size: 16px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: bold;
+}
+.button-container a:hover {
+    background-color: #ffffffde;
+    color: black;
+}
+
+.button-home {
+    display: block;
+    align-self: center;
+    flex-basis: 0px;
+    flex-grow: 1;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    top: 50px;
+    background-color: #007bff; 
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #00000033;
+    width: 200px;
+    font-size: 16px; 
+    font-family: "Libre Baskerville", serif; 
+    font-weight: bold; 
+
+}
+.button-profile {
+    align-self: center;
+    flex-basis: 0px;
+    flex-grow: 1;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    top: 50px;
+    background-color: #007bff; 
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #00000033;
+    width: 200px;
+    font-size: 16px; 
+    font-family: "Libre Baskerville", serif; 
+    font-weight: bold; 
+
+}
+
+.button-dashboard {
+    align-self: center;
+    flex-basis: 0px;
+    flex-grow: 1;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    top: 50px;
+    background-color: #007bff; 
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #00000033;
+    width: 100%;
+    font-size: 4vw; 
+    font-family: "Libre Baskerville", serif; 
+    font-weight: bold; 
+}
+
+.button-faq {
+    align-self: center;
+    flex-basis: 0px;
+    flex-grow: 1;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    top: 50px;
+    background-color: #007bff; 
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #00000033;
+    width: 200px;
+    font-size: 16px; 
+    font-family: "Libre Baskerville", serif; 
+    font-weight: bold; 
+}
+
+.button-blog {
+    align-self: center;
+    flex-basis: 0px;
+    flex-grow: 1;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    top: 50px;
+    background-color: #007bff; 
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #00000033;
+    width: 200px;
+    font-size: 16px; 
+    font-family: "Libre Baskerville", serif; 
+    font-weight: bold; 
+}
+
+button {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    gap: 0px;
+    margin: 300px 0; 
+}
