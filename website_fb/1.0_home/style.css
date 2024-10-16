@@ -267,6 +267,7 @@ button {
     margin: 300px 0; 
 }
 
+/* button container change the top and right with bottom and left to change the button layout  */
 .button-container-post {
     position: fixed; 
     top: 2%; 
@@ -301,5 +302,9 @@ button {
 
 .wrapper {
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 30px;
+    grid-template-columns: 22% 22% 22% 22%;
+    outline-style: ridge;
+    outline-width: 4px;
+    padding: 15px
 }
